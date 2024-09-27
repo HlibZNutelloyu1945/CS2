@@ -1,8 +1,38 @@
-body{
-    background-image: linear-gradient(orange , brown) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+body {
+  background-image: linear-gradient(orange, brown);
+  font-family: "Oxygen", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  width: 95%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 27px;
+  transition: 0.3s;
+}
+
+
+.link:hover{
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    border-radius: 10px;
+}
