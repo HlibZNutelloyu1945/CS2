@@ -56,9 +56,14 @@ main {
   justify-content: space-around;
   margin-top: 50px;
   margin-bottom: 50px;
+  padding: 10px;
 }
 .container-text {
   font-size: 22px;
   font-weight: 500;
   width: 500px;
+}
+
+span{
+  color: white;
 }
