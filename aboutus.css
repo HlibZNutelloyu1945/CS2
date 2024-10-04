@@ -1,0 +1,9 @@
+body {
+    background-color: orange;
+    color: black;
+}
+
+::selection {
+    color: white;
+    background-color: black;
+}
