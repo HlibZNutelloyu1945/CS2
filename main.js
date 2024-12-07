@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   logo.addEventListener("click", function () {
     clickCount += 1;
-    if (clickCount == 50) {
+    if (clickCount == 10) {
       sound.play();
       clickCount = 0;
       gif.classList.remove("is-hidden");
