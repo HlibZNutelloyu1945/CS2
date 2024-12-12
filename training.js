@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       aimImg.style.top = cord_y + "px";
       aimImg.style.left = cord_x + "px";
       catchCount += 1;
-      scoreText.textContent = "Your Score: " + catchCount;
+      scoreText.textContent = "Твій рахунок: " + catchCount;
     });
     countAim += 1;
   }
@@ -46,11 +46,11 @@ document.addEventListener("DOMContentLoaded", function () {
           time_hours += 1;
         }
       }
-      timeText.textContent = `Your Time: s: ${time_seconds} m: ${time_minutes}`;
+      timeText.textContent = `Твій час: s: ${time_seconds} m: ${time_minutes}`;
       if (time_minutes) {
-        timeText.textContent = `Your Time: ${time_minutes}m ${time_seconds}s`;
+        timeText.textContent = `Твій час: ${time_minutes}m ${time_seconds}s`;
       } else if (time_hours) {
-        timeText.textContent = `Your Time: ${time_hours}h ${time_minutes}m`;
+        timeText.textContent = `Твій час: ${time_hours}h ${time_minutes}m`;
       }
       time_make();
     }, 1000);
