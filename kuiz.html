@@ -3,67 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Квіз CS2</title>
+    <title>Квіз</title>
     <link rel="stylesheet" href="kuiz.css">
 </head>
 <body>
     <header>
-      
-        <img class="logo" src="./src/logo.png" width="100px" />
-
-    <nav>
-        <a class="link" href="index.html">Головна</a>
-        <a class="link" href="news.html">Новини</a>
-        <a class="link" href="trade.html">Трейд</a>
-        <a class="link" href="aboutus.html">Про нас</a>
-        <a class="link" href="training.html">Тренажер</a>
-        <a class="link" href="kuiz.html">Квіз</a>
-    </nav>
-</header>
-    <h1>Тест на знавця CS2</h1>
-    <div id="quiz-container">
-        <div id="question"></div>
+        <img src="logo.png" alt="Logo" class="logo">
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="about.html">Про нас</a>
+            <a href="news.html">Новини</a>
+        </nav>
+    </header>
+    
+    <h1>Тест по CS2</h1>
+    
+    <div id="kuiz-container">
+        <div id="question-container">
+            <span id="question">Питання буде тут</span>
+        </div>
         <div id="answers"></div>
-        <button id="next-btn" disabled>Наступне</button>
+        <button id="next-btn" disabled>Наступне питання</button>
+        <div id="score-display" style="display: none;">
+            <span>Ваш результат: <span id="score">0</span> з 25</span>
+        </div>
     </div>
-    <p id="score-display" style="display: none;">Ваш рахунок: <span id="score"></span></p>
-    <script src="kuiz.js"></script>
+
     <footer>
-        <p>© 2024 PalyanitsyaDrop.ua; Усі права захищено.</p>
-        <p>Контакти: infoPalyanitsyaDrop@gmail.com |</p>
-        <p>Телефон: +38 (000) 123 45 67</p>
-        <p class="links_footer">
-          Слідкуйте за нами:
-          <a href=""
-            ><img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Logo_2023.png/480px-Facebook_Logo_2023.png"
-              alt=""
-              width="50px"
-              height="50px"
-          /></a>
-          Facebook |
-          <a href=""
-            ><img
-              src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
-              alt=""
-              width="50px"
-              height="50px"
-          /></a>
-          Instagram |
-          <a href=""
-            ><img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png"
-              alt=""
-              width="50px"
-              height="50px"
-          /></a>
-          Telegram |
-        </p>
-        <p>Політика конфіденційності | Умови використання</p>
-        <p>
-          Counter-Strike 2 – зареєстрована торгова марка. Ми не є
-          офіційними представниками Valve Corporation.
-        </p>
-      </footer>
+        <p>© 2024 Квіз CS2</p>
+    </footer>
+
+    <script src="kuiz.js"></script>
 </body>
 </html>
