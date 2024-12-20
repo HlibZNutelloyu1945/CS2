@@ -7,6 +7,13 @@ body {
     padding: 20px;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+  }
+
 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
