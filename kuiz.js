@@ -1,10 +1,10 @@
 const questions = [
   {
-      question: "Яка максимальна кількість гравців у команді CS2?",
+      question: "Яка максимальна кількість гравців у команді CS2? НЕ лише матчмейкінг.",
       answers: [
-          { text: "3", correct: false },
-          { text: "4", correct: false },
-          { text: "5", correct: true }
+          { text: "5", correct: false },
+          { text: "2", correct: false },
+          { text: "10", correct: true }
       ]
   },
   {
@@ -35,12 +35,12 @@ const questions = [
       question: "Який пістолет найбільш популярний в CS2?",
       answers: [
           { text: "Глок", correct: false },
-          { text: "Деагл", correct: true },
+          { text: "Дiгл", correct: true },
           { text: "Берета", correct: false }
       ]
   },
   {
-      question: "Як називається іконка, яка з'являється після вбивства ворога?",
+      question: "Як називається іконка, яка з'являється після вбивства ворога в CS в голову?",
       answers: [
           { text: "Хедшот", correct: true },
           { text: "Фраг", correct: false },
@@ -48,11 +48,11 @@ const questions = [
       ]
   },
   {
-      question: "Як можна збільшити швидкість при бігу з ножем?",
+      question: "Як можна збільшити швидкість бігу з ножем в CS 1.6 - CS:GO (HE CS2)?",
       answers: [
           { text: "Використовувати гранату", correct: false },
           { text: "Пристосуватися до мишки", correct: false },
-          { text: "Використовувати ніж", correct: true }
+          { text: "Баніхоп", correct: true }
       ]
   },
   // додати більше питань, якщо потрібно...
